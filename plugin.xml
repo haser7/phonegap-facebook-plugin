@@ -28,9 +28,10 @@
       <access origin="https://*.fbcdn.net" />
       <access origin="https://*.akamaihd.net" />
     </config-file>
-    
+    <!--
     <preference name="APP_ID" />
 	<preference name="APP_NAME" />
+	-->
     
     <engines>
       <engine name="cordova" version=">=3.0.0" />
@@ -80,11 +81,11 @@
         <source-file src="src/ios/FacebookConnectPlugin.m" />
 
         <config-file target="*-Info.plist" parent="FacebookAppID">
-            <string>$APP_ID</string>
+            <string>467986553238213</string>
         </config-file>
         
         <config-file target="*-Info.plist" parent="FacebookDisplayName">
-            <string>$APP_NAME</string>
+            <string>PriceGenie</string>
         </config-file>
         
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
@@ -92,7 +93,7 @@
             <dict>
               <key>CFBundleURLSchemes</key>
               <array>
-                <string>fb$APP_ID</string>
+                <string>fb467986553238213</string>
               </array>
             </dict>
           </array>

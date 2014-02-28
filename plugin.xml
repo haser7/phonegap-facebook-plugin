@@ -39,7 +39,9 @@
     
     <!-- android -->
     <platform name="android">
-        
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET"/>
+        </config-file>
         <config-file target="config.xml" parent="/*">
             <feature name="org.apache.cordova.facebook.Connect">
                 <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />

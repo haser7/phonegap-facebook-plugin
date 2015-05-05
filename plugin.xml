@@ -32,7 +32,10 @@
     <preference name="APP_ID" />
 	<preference name="APP_NAME" />
 	-->
-    
+	
+    <preference name="837414706313813" />
+	<preference name="cordovaapp" />
+
     <engines>
       <engine name="cordova" version=">=3.0.0" />
     </engines>
